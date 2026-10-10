@@ -1,0 +1,16 @@
+Tensor shape: (10, 10, 10, 10, 10, 7)
+Grid cells (valid / total): 88600 / 100000
+Scalar entries (observed / possible): 620200 / 700000
+Wrote /Users/shaanpakala/Desktop/Interferometer-Design/figures/eda_tensor_hist.png
+Full-tensor reconstruction error (masked valid entries)...
+  full fit rank 2
+  full fit rank 3
+  full fit rank 4
+  full fit rank 6
+  full fit rank 8
+  full fit rank 10
+  full fit rank 12
+  full fit rank 16
+Wrote /Users/shaanpakala/Desktop/Interferometer-Design/figures/eda_cp_error_by_rank.png
+80/20 grid holdout R²...
+  holdout rank 2

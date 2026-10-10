@@ -506,7 +506,7 @@ def save_npz(
 def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Fabry–Perot grid power tensor generator")
     p.add_argument("--out", type=Path, default=DEFAULT_OUT, help="Output .npz path")
-    p.add_argument("--points", type=int, default=7, help="Points per axis between discovered edges")
+    p.add_argument("--points", type=int, default=10, help="Points per axis between discovered edges")
     p.add_argument("--paper-pert", action="store_true", help="±0.01%% spans around nominal")
     p.add_argument("--dry-run", action="store_true", help="Print grid only, no FINESSE")
     p.add_argument("--max-sims", type=int, default=None, help="Cap simulations (smoke tests)")
